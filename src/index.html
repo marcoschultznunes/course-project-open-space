@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Space</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/control_panel.css">
+</head>
+<body>
+    <div class="space">
+        <div class="planet-area">
+            <img class="planet" alt="" src="https://stepik.org/media/attachments/lesson/452681/mars.png"/>
+            <img class="rocket" alt="" src="https://stepik.org/media/attachments/lesson/452681/rocket.png"/>
+        </div>
+        <div class="control-panel">
+            <div class="control-panel__inner">
+                <input type="password" placeholder="Password" id="password-input">
+                <input type="button" value="ok" class="btn" id="password-btn"/>
+                <div class="check-buttons" id="check-buttons">
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                    <input type="checkbox" disabled>
+                </div>
+                <div class="levers" id="levers">
+                    <input type="range" min="0" max="100" disabled>
+                    <input type="range" min="0" max="100" disabled>
+                    <input type="range" min="0" max="100" disabled>
+                    <input type="range" min="0" max="100" disabled>
+                    <input type="range" min="0" max="100" disabled>
+                </div>
+                <input type="button" value="launch" class="btn" id="launch-btn" disabled/>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

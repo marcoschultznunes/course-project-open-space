@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #66cc66;
+}
+.btn {
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px #fff;
+}
+.btn:active {
+    box-shadow: 0 0 4px #ffffff;
+    text-shadow: 0 0 2px #fff;
+}
+.btn[disabled]:hover {
+    cursor: default;
+    box-shadow: none;
+}
+.btn[disabled]:active{
+    text-shadow: none;
+}
+
+.space{
+    width: 100vw;
+    height: 100vh;
+    background: #000000 url('https://stepik.org/media/attachments/lesson/452681/space.png') no-repeat fixed center;
+    background-size: cover;
+    position: relative;
+}
+
+.planet-area {
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+}
+.planet{
+    width: 100%;
+    height: 100%;
+}
+.rocket{
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+    transform: rotate(30deg);
+}
